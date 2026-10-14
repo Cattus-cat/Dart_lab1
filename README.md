@@ -1,6 +1,6 @@
 # Лабораторная работа №1. Быстрое погружение в язык Dart
 ## Итоговая программа: «Анализатор оценок»
-## Автор: Максим Группа ИСП-242
+## Автор: Ринат Группа ИСП-242
 
 ## Запуск
 1. Клонировать репозиторий: `git clone <url>`
@@ -40,8 +40,8 @@ void name_age(String name, int age) {
   print('Пользователь: $name, Возраст: $age');
 }
 
-Можно вызвать только так: name_age("Макс", 18)
-name_age(18, "Макс") ---> ОШИБКА
+Можно вызвать только так: name_age("Ринат", 18)
+name_age(18, "Ринат") ---> ОШИБКА
 
 void name_age({required String name, required int age}) {
   print('Пользователь: $name, Возраст: $age');
@@ -49,4 +49,4 @@ void name_age({required String name, required int age}) {
 
 В данной ситуации можно вызвать любым способом!
 
-name_age(name="Макс", age=18) или name_age(age=18, name="Макс")
+name_age(name="Ринат", age=18) или name_age(age=18, name="Ринат")
